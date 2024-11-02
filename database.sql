@@ -442,7 +442,8 @@ INSERT INTO `tb_progress` (`id_p`, `id_m`, `id_t`, `tanggal`) VALUES
 	(313, 86, 2, '2023-02-24'),
 	(314, 86, 3, '2023-02-24'),
 	(315, 86, 4, '2023-02-24'),
-	(316, 86, 5, '2023-02-24');
+	(316, 86, 5, '2023-02-24'),
+	(317, 57, 5, '2023-02-24');
 
 -- Dumping structure for table db_tracking.tb_skripsi
 CREATE TABLE IF NOT EXISTS `tb_skripsi` (
