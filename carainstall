@@ -1,0 +1,30 @@
+sudo apt install git
+cd /var/www
+git clone https://github.com/Muhammadalgazali/expose.git
+
+cd /expose
+sudo apt install mysql-server
+mysql -u root -p
+CREATE USER 'gazali'@'localhost' IDENTIFIED BY 'gazali';
+CREATE DATABASE db_tracking;
+GRANT ALL PRIVILEGES ON db_tracking.* TO 'gazali'@'localhost';
+FLUSH PRIVILEGES;
+exit
+mysql -u gazali -p db_tracking < database.sql
+gazali
+
+mysql -u gazali -p
+gazali
+USE db_tracking;
+SHOW TABLES;
+
+
+sudo apt install php php-fpm php-mysqli
+php -v
+cd /etc/nginx/sites-available
+nano default
+#phpx.x-fpm.sock
+
+
+sudo nginx -t
+systemctl reload nginx
