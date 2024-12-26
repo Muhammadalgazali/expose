@@ -1,0 +1,15 @@
+/* Define the Inter Variable font */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Variable.ttf') format('truetype');
+    font-weight: 100 900; /* Variable font weights from thin (100) to black (900) */
+    font-style: normal;
+}
+
+/* Define the Inter Italic font */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Italic.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+}
